@@ -57,7 +57,7 @@ public class Assembler {
     public static void secondPass(String filename) {
         Parser parser = new Parser(filename.replace(".asm", "_clean.asm"));
         Out out = new Out(filename.replace(".asm", ".hack"));
-        int variable_address = 1024;
+        int variable_address = 16;
         while (parser.hasMoreCommands()) { 
             parser.advance();
             int commandType = parser.commandType();
