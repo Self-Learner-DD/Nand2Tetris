@@ -8,7 +8,7 @@ How to compile the code
 	      “javac Parser.java”
 	      “javac VMtranslator.java”
 	      (java is required to be installed)
-        (all file input and output are handled with standard library of algorith4, need to install the package at https://algs4.cs.princeton.edu/home/)
+        (all file input and output are handled with standard library of algorithm4, need to install the package from https://algs4.cs.princeton.edu/home/)
 
 4.After compiling, there will be a “CodeWriter.class”, a “Parser.class” and a “VMtranslator.class” file in current path
 
